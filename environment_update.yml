@@ -1,0 +1,13 @@
+name: algorithms # use the same name from the repo of the project
+
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - python=3.13
+  - pip=24.3.1
+  - pip-tools
+  - pip:
+    - -r requirements/requirements.txt # change for requirements.txt for production deployment
