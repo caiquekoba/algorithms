@@ -2,13 +2,13 @@ import sys
 import time
 import unittest
 sys.path.append("../algorithms")
-from algorithms.insertion_sort import InsertionSort
+from algorithms.selection_sort import SelectionSort
 
-class TestInsertionSort(unittest.TestCase):
+class TestSelectionSort(unittest.TestCase):
 
     def setUp(self):
         # Instantiate the InsertionSort class
-        self.sorter = InsertionSort()
+        self.sorter = SelectionSort()
         # Start timing the test
         self.start_time = time.time()
 
