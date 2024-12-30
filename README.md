@@ -16,6 +16,12 @@ This repository is destinated to condense all the algorithms I developed for any
 2. <code>make requirements.txt</code>
 3. <code>make update_algorithms_environment</code>
 
+* To test algorithms (unit tests):
+<code>python <tests/test_file_name.py></code>
+
+* To compare algorithms (based on processing time):
+<code>python <comparisons/comparison_file_name.py></code>
+
 ### Other links for my work ###
 
 * Email: caiqueokoba@gmail.com
